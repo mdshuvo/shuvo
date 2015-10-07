@@ -1,0 +1,579 @@
+/* ====================================================================*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button,
+input,
+textarea {outline: none;}
+
+
+/*===================================navigation area===================*/
+
+.navigation_area {
+    background-color: #202628;
+}
+
+.logo {
+    text-transform: uppercase;
+    color: #e7e7e7;
+}
+
+.logo:hover {
+    color: #e84c3d;
+}
+
+#nav>li>a {
+    text-transform: uppercase;
+    color: #e7e7e7;
+    font-weight: bold;
+}
+
+#nav>li>a:hover,
+#nav>li>a:visited {
+    background: #e84c3d;
+}
+
+.navbar-toggle {
+    background-color: rgba(253, 253, 253, 0.5);
+}
+
+span.icon-bar {
+    background-color: red;
+}
+
+
+/* ==============================slider_area======================================*/
+
+.slider_area {
+    background-image: url(../img/Layer%201.png);
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 520px;
+    background-size: 100% 100%;
+    clear: both;
+    margin-top: 0;
+}
+
+#head-title {
+    padding-top: 250px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#head-title>p:first-of-type {
+    border: 2px solid #e84c3d;
+    margin-top: 5px;
+    padding: 0px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #e84c3d;
+    text-align: center;
+    display: inline-block;
+}
+
+#head-title>p:first-of-type>i {
+    color: black;
+    margin-top: 20px;
+}
+
+#head-title>p:nth-of-type(2),
+#head-title>p:last-of-type {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#head-title>p:nth-of-type(2)>img {}
+
+#head-title>ul>li {
+    list-style: none;
+    margin-left: -40px;
+}
+
+#head-title>ul>li>a {
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color: #e84c3d;
+    font-size: 15px;
+    display: inline-block;
+    line-height: 20px;
+}
+
+#head-title>ul>li>a:hover {
+    color: white;
+}
+
+
+/* ==============================about_us_area======================================*/
+
+.about_us_area {
+    clear: both;
+    overflow: hidden;
+    display: block;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.icon {
+    border: 2px solid #e84c3d;
+    margin-top: 5px;
+    padding: 0px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #e84c3d;
+    text-align: center;
+    display: inline-block;
+}
+
+.icon>i {
+    color: white;
+    margin-top: 20px;
+}
+
+.icon {}
+
+.content>p:first-of-type {
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(32, 38, 40);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.content>p:last-of-type {
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(118, 124, 126);
+}
+
+.content>p:last-of-type>span {
+    color: #e84c3d;
+    font-size: 11px;
+}
+
+
+/* ==============================service_area======================================*/
+
+#title {
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(32, 38, 40);
+    font-weight: 650;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+#title2 {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(232, 76, 61);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.more-info>p:first-of-type {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+    font-style: bold;
+    color: black;
+}
+
+.more-info>p:last-of-type {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    color: gray;
+}
+
+.portfolio-img>p {
+    background: black;
+    border: 1px solid white;
+    padding: 110px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+.more-info>button {
+    color: white;
+    background: #e84c3d;
+    width: 80px;
+    height: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 20px;
+    outline: none;
+}
+
+.more-info>button:hover {
+    color: white;
+    background: black;
+    border-style: none;
+}
+
+
+/* ==============================subscribe_area======================================*/
+
+.subscribe_area {
+    margin-top: 40px;
+}
+
+.subscribe {
+    background: #e84c3d;
+    height: 40%;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.user {
+    border: 2px solid #e84c3d;
+    margin-top: 5px;
+    padding: 0px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: black;
+    text-align: center;
+    display: inline-block;
+}
+
+.user>i {
+    color: white;
+    margin-top: 20px;
+}
+
+.comment>p:first-of-type,
+.e-form>p {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.comment>p:last-of-type {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+}
+
+.comment>p:last-of-type>span {
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+
+#subscribe-email>input {
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    height: 41px;
+    border-style: none;
+    border-radius: 15px;
+    border-color: red;
+    outline: none;
+}
+
+#subscribe-email>input[placeholder] {
+    font-size: 14px;
+    color: rgb(159, 170, 173);
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    padding-left: 15px;
+}
+
+#subscribe-btn {
+    color: white;
+    background-color: rgb(32, 38, 40);
+    text-align: center;
+    width: 120px;
+    height: 41px;
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    border-style: none;
+    border-radius: 20px;
+    margin-top: 35px;
+    margin-left: -15px;
+    border-color: red;
+    outline: none;
+}
+
+button#subscribe-btn:hover {
+    background-color: #F7F6F6;
+    /* border-color: black; */
+    color: black;
+}
+
+
+/* ==============================contact_area======================================*/
+
+.contact_area {
+    margin-top: 20px;
+}
+
+.contact-heading>p {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.person>p {
+    border: 1px solid white;
+    padding: 0px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: black;
+    text-align: center;
+    display: inline-block;
+}
+
+.feedback {
+    font-size: 14px;
+    color: #888d8f;
+    font-family: 'Lato', sans-serif;
+    margin-top: 7px;
+}
+
+.feedback>span {
+    color: red;
+    font-size: `12px;
+}
+
+#feedback-last {
+    margin-bottom: 52px;
+}
+
+.contact-form>p {
+    color: #767c7e;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    margin-top: -20px;
+}
+
+.container .jumbotron,
+.container-fluid .jumbotron {
+    padding-right: 0px;
+    padding-left: 23px;
+}
+
+.contact-form>p,
+forms {
+    margin-top: -30px;
+}
+
+#forms>input:first-of-type,
+#forms>input:last-of-type {
+    background-color: rgb(255, 255, 255);
+    width: 310px;
+    height: 41px;
+    border-style: none;
+    border-radius: 10px;
+    border-color: none;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+}
+
+#forms>textarea {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 310px;
+    height: 82px;
+    font-family: 'Lato', sans-serif;
+    border-color: #EAEAEA;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.contact-border {
+    border-top: 1px solid gray;
+    border-color: #EAEAEA;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.contact-border:last-of-type {
+    border-bottom: 1px solid gray;
+    border-color: #EAEAEA;
+}
+
+.contact-icon {
+    margin-left: -30px;
+}
+
+.person {
+    margin-left: -30px;
+}
+
+#forms>input[placeholder],
+#forms>textarea[placeholder] {
+    font-size: 15px;
+    color: rgb(159, 170, 173);
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    padding-left: 8px;
+}
+
+#forms>button {
+    color: white;
+    background: #e84c3d;
+    width: 90px;
+    height: 45px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+}
+
+#forms>button:hover {
+    border-style: none;
+    background-color: black;
+}
+
+#forms>button>i {
+    color: white;
+    padding-left: 3px;
+}
+
+.sevaral-contact>p:first-of-type {
+    font-size: 20px;
+    font-family: "Lato";
+    color: rgb(232, 76, 61);
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.sevaral-contact>p:last-of-type {
+    font-size: 15px;
+    font-family: "Lato";
+    color: gray;
+}
+
+
+/* ================================footer_area====================================*/
+
+.footer_area .jumbotron {
+    max-width: 100%;
+    background-color: #202628;
+    margin-bottom: 0;
+    /* padding-top: 30px;
+    padding-bottom: 30px;
+    height: 40%;*/
+}
+
+.container-fluid .footer_area .jumbotron {
+    border-radius: 0px;
+    margin-top: 70px;
+}
+
+.foot-link>ul,
+.foot-socialmedia>ul {
+    list-style: none;
+}
+
+.foot-link>ul {
+    margin-left: -40px;
+}
+
+.foot-link>ul>li {
+    list-style: none;
+    display: inline-block;
+    color: gray;
+}
+
+.foot-link>ul>li>a {
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.foot-link>ul>li>a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.foot-link>ul>li>a {
+    padding: 5px;
+}
+
+.foot-link>p {
+    font-family: 'Lato', sans-serif;
+    color: gray;
+    font-size: 13px;
+}
+
+.foot-link>p>span {
+    color: red;
+    font-family: 'Lato', sans-serif;
+}
+
+.foot-socialmedia>ul {}
+
+.foot-socialmedia>ul>li> {
+    margin-left: 15px;
+}
+
+.foot-socialmedia>ul>li>a {
+    border: 1px solid #e84c3d;
+    margin-top: px;
+    padding-left: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e84c3d;
+    text-align: center;
+    display: inline-block;
+}
+
+.foot-socialmedia>ul>li>a>i {
+    color: white;
+    margin-top: 12px;
+}
+
+.foot-socialmedia>ul>li>a:hover,
+.foot-socialmedia>ul>li>a>i:hover {
+    color: black;
+    text-decoration: none;
+    border-color: #f396a1;
+    background: #f396a1;
+}
+
+.foot-socialmedia>ul>li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+/* ====================================================================*/
+
+.column {
+    widows: 1000px;
+}
